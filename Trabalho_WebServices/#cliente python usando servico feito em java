@@ -1,0 +1,2 @@
+#cliente python usando servico feito em java rodando em servidor tomcat from SOAPpy import SOAPProxy server = SOAPProxy("http://localhost:8080/estoquews?wsdl") print "codigo"+"nome"+"tipo"+"quantidade" + str(server._ns("urn:onjavaserver").add("1","mastercard","Itau",2)) print "1","mastercard","Itau",2) = " + str(server._ns("urn:onjavaserver").subtract"1","mastercard","Itau",2))
+

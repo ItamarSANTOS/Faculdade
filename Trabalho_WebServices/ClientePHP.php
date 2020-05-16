@@ -1,0 +1,2 @@
+include("SOAP/Client.php"); $soapclient = new SOAP_Client("http://localhost:8080/estoquews?wsdl"); $soapoptions = array("namespace" => "urn:onjavaserver","trace" => 0); //chamando a funcao add $ret = $soapclient->call("add", $params = array("1","nome","tipo"2), $soapoptions); if (PEAR::isError($ret)) { // tratamento de erros } else { echo "Add=".$ret; } //chamando a funcao substract $ret = $soapclient->call("subtract", $params = array(10,2), $soapoptions); if (PEAR::isError($ret)) { // tratamento de erros } else { echo "Subtract=".$ret; }
+
